@@ -2,7 +2,7 @@
 import './global.css'
 
 import { Header } from './components/Header'
-import {  Post } from './Post'
+import {  Post } from './components/Post'
 import { Sidebar } from './components/Sidebar'
 
 
@@ -21,12 +21,8 @@ return(
    
         <Sidebar/>
         <main>
-        <Post
-         author="Matheus Felix"
-         content="Olá, Meu nome é matheus e eu sou programador"/>
-            <Post
-         author="Matheus Felix"
-         content="Olá, Meu nome é matheus e eu sou programador mais especializado com front-end porém me considero fullstack pois sei desenvolver um sistema completo"/>
+        <Post/>
+        <Post/>
          </main>
       </div>
 
